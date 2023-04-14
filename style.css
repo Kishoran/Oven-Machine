@@ -1,0 +1,165 @@
+.container {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  border: 1px solid;
+  top: calc(50% - 150px);
+  left: calc(50% - 250px);
+  background-color: #d6d6da;
+  border-radius: 20px;
+}
+.subcontainer {
+  width: 95.5%;
+  height: 95%;
+  position: absolute;
+  border: 1px solid #000;
+  top: 2.5%;
+  right: 1%;
+  background-color: #d6d6da;
+  border-radius: 20px 10px 10px 20px;
+}
+.oven-cover {
+  width: 70%;
+  height: 85%;
+  position: absolute;
+  border: 1px solid #505051;
+  top: 8%;
+  left: 7%;
+  background-color: #d6d6da;
+  border-radius: 10px;
+}
+.oven-handclip_one {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  border: 1px solid;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #505051;
+}
+.oven-handclip_two {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  border: 1px solid;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #505051;
+  bottom: 0;
+}
+.oven-platebox {
+  width: 100%;
+  height: 58%;
+  position: absolute;
+
+  top: 20.5%;
+  background-color: transparent;
+}
+.oven-platebox::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #fff;
+  top: calc(40%);
+}
+.oven-platebox::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #fff;
+  bottom: calc(50% - 50px);
+}
+.oven-cover-two {
+  width: 20%;
+  height: 85%;
+  position: absolute;
+  right: 0px;
+  top: 8%;
+  right: 1%;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #505051;
+}
+.oven-buttons {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 25%;
+  top: 5%;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: #000;
+}
+.oven-buttons::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #fff;
+  bottom: -10px;
+  left: 15px;
+}
+.oven-button_one {
+  top: 5%;
+}
+.oven-button_two {
+  top: 80px;
+}
+.oven-button_three {
+  top: 180px;
+}
+.oven-power {
+  width: 50%;
+  height: 10px;
+  position: absolute;
+  border: 1px solid;
+  top: 150px;
+  left: 25px;
+  background-color: #864747;
+}
+.oven-stand_one {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  border: 1px solid;
+  bottom: -22px;
+  left: 35px;
+  background-color: #000;
+}
+.oven-stand_two {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  border: 1px solid;
+  bottom: -22px;
+  right: 35px;
+  background-color: #000;
+}
+.button_one_name {
+  color: white;
+  padding-top: 55px;
+  padding-left: 35px;
+  font-size: 10px;
+}
+.button_two_name {
+  color: white;
+  padding-top: 45px;
+  padding-right: 25px;
+  font-size: 10px;
+}
+.button_three_name {
+  color: white;
+  padding-top: 45px;
+  padding-right: 25px;
+  font-size: 10px;
+}
+.power_name {
+  color: white;
+  padding-top: 5px;
+  padding-left: 15px;
+  font-size: 10px;
+}
+.company_name {
+  color: #d1cccc;
+  text-align: center;
+  font-size: 21px;
+}
